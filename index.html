@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flansh Cofee</title>
+  </head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="cf.jpg" />
+
+  <style>
+    body {
+      /* margin: 0px;
+        padding: 0px; */
+      background: url("cf.jpg");
+      background-size: cover;
+      font-family: "Luxurious Roman", cursive;
+    }
+
+    .left {
+      display: inline-block;
+      /* border: 2px solid black; */
+      left: 10px;
+      top: 10px;
+      text-align: center;
+    }
+
+    .center {
+      /* display: block; */
+      /* border: 2px solid blue; */
+      width: 40%;
+      margin: -70px auto;
+    }
+
+    .right {
+      display: inline-block;
+      /* border: 2px solid crimson; */
+      position: absolute;
+      right: 20px;
+      top: 50px;
+    }
+
+    .left img {
+      width: 60px;
+      border-radius: 30px;
+      /* margin: 10px; */
+      padding: 10px;
+    }
+
+    .navbar {
+      display: inline;
+    }
+
+    .navbar li {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 30px;
+    }
+
+    .navbar li a {
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      padding: 4px 30px;
+      border-radius: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      background-color: darkblue;
+      color: cyan;
+    }
+
+    /* .right button {
+        background-color: darkblue;
+        color: cyan;
+    } */
+
+    .btn {
+      margin: 0px 10px;
+      padding: 2px;
+      font-size: 17px;
+      border-radius: 15px;
+      font-family: "Luxurious Roman", cursive;
+    }
+
+    .btn:hover
+
+    /* .btn.active */ {
+      background-color: darkblue;
+      color: cyan;
+    }
+
+    .container {
+      /* border: 2px solid blue; */
+      padding-top: 325px;
+      /* margin: 247px 0px; */
+      width: 30%;
+      float: right;
+      text-align: center;
+    }
+
+    .form-group input {
+      text-align: center;
+      font-size: 20px;
+      padding: 5px 40px;
+      margin: 7px 70px;
+      /* height: 16px; */
+      font-family: "Luxurious Roman", cursive;
+      border-radius: 13px;
+    }
+
+    .button1 {
+      font-family: "Luxurious Roman", cursive;
+      font-size: 17px;
+      float: left;
+    }
+
+    .button2 {
+      font-family: "Luxurious Roman", cursive;
+      font-size: 17px;
+      float: right;
+    }
+
+    .button1:hover
+
+    /* .button2.active  */ {
+      background-color: darkblue;
+      color: cyan;
+    }
+
+    .button2:hover
+
+    /* .button2.active  */ {
+      background-color: darkblue;
+      color: cyan;
+    }
+  </style>
+
+  <body>
+    <header>
+      <div class="left">
+        <img src="lo.jpg" alt="LOGO" />
+        <div>Cafe Flansh</div>
+      </div>
+
+      <div class="center">
+        <ul class="navbar">
+          <li><a href="#">Home </a></li>
+          <li><a href="http://127.0.0.1:5501/about.html">About us</a></li>
+          <li><a href="#">Reach us</a></li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <button class="btn">Call us now</button>
+        <button class="btn">Email us</button>
+      </div>
+
+      <div class="container">
+        <h1>Place Your Order Here !!!</h1>
+        <form action="noaction.php">
+          <div class="form-group">
+            <input type="text" name="" placeholder="Your name, Dear" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Your Age" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Your Phone Number " />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Your Locality" />
+          </div>
+
+          <button class="button1" type="submit">Submit</button>
+          <button class="button2" type="reset">Reset</button>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
